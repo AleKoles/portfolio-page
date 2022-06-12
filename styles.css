@@ -19,7 +19,8 @@ hr {
 }
 
 .bg-my-color {
-  background-color: #f7a731;
+  background-color: #f7a831;
+  border: none;
 }
 
 .bg-same {
@@ -28,6 +29,10 @@ hr {
 }
 .t-same {
   color: #f1e8da;
+}
+
+.t-white {
+  color: white;
 }
 
 .header {
