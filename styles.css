@@ -14,6 +14,7 @@ hr {
   width: 40px;
   margin: 0;
 }
+
 .container {
   margin: 30px 50px;
 }
@@ -39,36 +40,31 @@ hr {
   color: white;
 }
 
-.header {
-  display: grid;
-  grid-template-columns: 4fr 2fr;
-}
-
 .name {
   font-size: 20px;
   padding-left: 30px;
 }
+.button {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
 
-.btn-primary-color {
+.btn-mine {
+  box-shadow: 2px 2px 10px #4f320663;
   background-color: white;
-}
-
-.btn-shadow {
-  box-shadow: 2px 2px 10px (#f1e8da);
-}
-
-.btn-p {
+  border: 1px solid #4f3206;
+  color: #4f3206;
   padding: 15px 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+  text-decoration: none;
 }
 
-.btn:hover {
-  background-color: white;
-
-  border-color: white;
-}
-
-.btn a:hover {
-  color: var(--bs-link-hover-color);
+.btn-mine:hover {
+  border: 1px solid #4f3206;
+  color: #f1e8da;
+  background-color: #4f3206;
+  box-shadow: 2px 2px 10px #4f320663;
 }
 
 /* main styles */
@@ -76,9 +72,9 @@ hr {
 h2 {
   font-weight: 100;
 }
-.main {
+.hero {
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 3fr 1fr;
   margin: 5% 10%;
 }
 
@@ -86,43 +82,27 @@ h2 {
   position: relative;
   width: 250px;
   height: 250px;
-  border-radius: 50%;
+  border-radius: 20px;
   border: 7px solid #fff;
   overflow: hidden;
+  box-shadow: 2px 2px 10px;
+  border: none;
 }
 
 .pic img {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 105%;
+  height: 105%;
   object-fit: cover;
 }
 
 .content {
-  padding-left: 30px;
+  padding-right: 30px;
   padding-top: 20px;
 }
-/* .content button {
-  background-color: antiquewhite;
-  border: 2px solid #4f3206;
-  transform: 150ms ease-in-out;
-  border-radius: 10px;
-  padding: 5px 10px;
-  color: #4f3206;
-  font-size: 14px;
-  text-transform: uppercase;
-  font-weight: 500;
-  margin-top: 10px;
-} */
 
-.content button:hover {
-  cursor: pointer;
-  color: antiquewhite;
-  background-color: #f7a731;
-  border: 2px solid #f7a731;
-}
 #skills {
   margin-bottom: 30px;
 }
@@ -136,30 +116,36 @@ hr {
 
 /* footer styles */
 .footer {
-  background-color: #f7a731;
-  padding: 15px 0;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.contacts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #contacts {
   display: flex;
-  align-items: center;
+  align-items: space-around;
   justify-content: space-around;
+  max-width: 800px;
 }
 
 #contacts i {
-  margin: 0 9px;
-  transition: 150ms ease-in-out;
+  margin: 20px 9px;
+  transition: 500ms ease-in-out;
 }
 
 #contacts i:hover {
   transform: scale(2.1);
-  color: white;
 }
 
 #contacts a {
-  color: #f1e8da;
+  color: #f7a731;
 }
 
 #contacts a:hover {
-  color: #f1e8da;
+  color: #f7a731;
 }
