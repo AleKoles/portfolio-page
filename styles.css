@@ -39,11 +39,13 @@ hr {
 .t-primary {
   color: #f7a731;
 }
-
+*/
 .t-white {
   color: white;
-} */
-*/ .name {
+} 
+
+
+.name { */
   font-size: 20px;
   padding-left: 30px;
 }
@@ -201,7 +203,8 @@ hr {
   .pic {
     display: none;
   }
-  .hero {
+  .hero,
+  .hero-about {
     display: flex;
     flex-direction: column;
   }
@@ -224,7 +227,8 @@ hr {
   .pic {
     display: none;
   }
-  .hero {
+  .hero,
+  .hero-about {
     display: flex;
   }
   .content {
