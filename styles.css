@@ -36,13 +36,13 @@ hr {
 */
 .t-white {
   color: white;
-} 
-
-.t-same {
-  color:#4f3206;
 }
 
-.name { */
+.t-same {
+  color: #4f3206;
+}
+
+.name {
   font-size: 20px;
   padding-left: 30px;
 }
@@ -164,28 +164,29 @@ hr {
   transition: 500ms ease-in-out;
 }
 
- #contacts-page i{
+#contacts-page i {
   margin: 40px 20px;
   transition: 200ms ease-in-out;
- }
+}
 
 #contacts i:hover {
   transform: rotate(360deg);
 }
 
-#contacts-page i:hover{
-transform: scale(2.1);
+#contacts-page i:hover {
+  transform: scale(2.1);
 }
 
 #contacts a {
   color: #f7a731;
 }
 
-#contacts-page a{
-  color:#4f3206;
+#contacts-page a {
+  color: #4f3206;
 }
 
-#contacts a, #contacts-page a:hover {
+#contacts a,
+#contacts-page a:hover {
   color: #f7a731;
 }
 
