@@ -181,6 +181,10 @@ hr {
   color: #f7a731;
 }
 
+.nav-pills .nav-link {
+  text-decoration: none;
+}
+
 @media screen and (min-width: 980px) {
   .pic-mobile {
     display: none;
